@@ -1,6 +1,6 @@
 <p align="center"><img src="https://imgur.com/Sv6j0B6.png" width="100" /></p>
 
-# graphql-yoga
+# graphql-boilerplate
 
 [![CircleCI](https://circleci.com/gh/prisma/graphql-yoga.svg?style=shield)](https://circleci.com/gh/prisma/graphql-yoga) [![npm version](https://badge.fury.io/js/graphql-yoga.svg)](https://badge.fury.io/js/graphql-yoga)
 
