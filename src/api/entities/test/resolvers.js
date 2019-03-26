@@ -1,4 +1,4 @@
 const Query = {
-  test: () => 'Test Success, GraphQL server is up & running !! 1'
+  test: (_, id) => JSON.stringify(id)
 }
 module.exports = {Query}

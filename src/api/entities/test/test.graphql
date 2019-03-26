@@ -1,3 +1,25 @@
-type Query  {
-   test: String
+type Test {
+  id: ID!
+  name: String!
+}
+
+input TestCreateInput {
+  name: String!
+  regionId: ID!
+}
+
+input TestUpdateInput {
+  name: String
+}
+
+type Query {
+  area(id: ID!): Test!
+  areas: [Test]!
+  test(id: String): String
+}
+
+type Mutation {
+  createTest(input: TestCreateInput!): Test!
+  updateTest(id: ID!, input: TestUpdateInput!): Test!
+  deleteTest(id: ID!): Test!
 }
